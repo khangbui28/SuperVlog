@@ -39,9 +39,11 @@ public class Patrolling : MonoBehaviour
     void NextWaypoint()
     {
         index++;
+
         if (index == waypoints.Length)
         {
             index = 0;
         }
+        
     }
 }
